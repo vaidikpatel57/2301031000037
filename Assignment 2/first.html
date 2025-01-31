@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Decor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .left-panel {
+            background-color: #f5f5f5;
+            padding: 40px;
+            text-align: center;
+            border-right: 1px solid #ddd;
+        }
+        .left-panel img {
+            width: 150px;
+        }
+        .left-panel h2 {
+            margin: 20px 0;
+            color: #6c4e2a;
+        }
+        .left-panel button {
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            background-color: #d4a559;
+            border: none;
+            color: white;
+            font-size: 20px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:#6c4e2a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="logo.png" alt="Home Decor Logo">
+            <h2>HOME DECOR ARCHITECTURE</h2>
+            <button onclick="location.href='login.html'">log In</button>
+            <button onclick="location.href='signup.html'">Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>

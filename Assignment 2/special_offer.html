@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offer - Home Decor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h2 {
+            color: #d4a559;
+            text-align: left;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: calc(33.33% - 20px);
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            text-align: center;
+            min-height: 500px;
+            /* Ensures uniform height across all product cards */
+        }
+
+
+        .product img {
+            width: 100%;
+            height: 300px;
+            /* Set a fixed height for uniformity */
+            object-fit: cover;
+            /* Ensures images maintain aspect ratio and fill the box */
+            border-radius: 10px;
+        }
+
+
+        .product h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+
+        .product p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #d4a559;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Special Offer</h2>
+        <div class="products">
+            <div class="product">
+                <img src="clock.png" alt="Wall Clock">
+
+                <p>Metal Wall Clock Floral Design with Silent Sweep Machine</p>
+                <p class="price">₹1999 <span class="old-price">₹3599</span></p>
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sofa.png" alt="Sofa Alexia">
+                <p>Sofa Alexia Luxurious Handcrafted From Estre</p>
+                <p class="price">₹15000 <span class="old-price">₹18000</span></p>
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="chair4.png" alt="Sofa Alexia">
+                <p>Grey 2-Chair Sofa Set with Cushion Stool -Seating for Modern Living Rooms</p>
+                <p class="price">₹17500 <span class="old-price">₹35000</span></p>
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="elephant.png" alt="Sofa Alexia">
+                <p>Giftplease Wall Hangings for Home Decoration | Home Decor Items for Living Room </p>
+                <p class="price">₹245 <span class="old-price">₹599</span></p>
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="wall.png" alt="Sofa Alexia">
+                <p>MD Arts Wall Hanging Decorative Items | Home Decor Wall Hangings</p>
+                <p class="price">₹250 <span class="old-price">₹500</span></p>
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="chair.png" alt="Sofa Alexia">
+                <p>SiedA Wing Chair for Living Room, Bedroom High Back Single Seater Sofa </p>
+                <p class="price">₹12499 <span class="old-price">₹24999</span></p>
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
